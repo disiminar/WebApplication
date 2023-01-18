@@ -1,0 +1,12 @@
+D:\university\tuber\last fight\2\course-main\WebApp.Utility\bin\Debug\net7.0\WebApp.Utility.deps.json
+D:\university\tuber\last fight\2\course-main\WebApp.Utility\bin\Debug\net7.0\WebApp.Utility.dll
+D:\university\tuber\last fight\2\course-main\WebApp.Utility\bin\Debug\net7.0\WebApp.Utility.pdb
+D:\university\tuber\last fight\2\course-main\WebApp.Utility\obj\Debug\net7.0\WebApp.Utility.csproj.AssemblyReference.cache
+D:\university\tuber\last fight\2\course-main\WebApp.Utility\obj\Debug\net7.0\WebApp.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\tuber\last fight\2\course-main\WebApp.Utility\obj\Debug\net7.0\WebApp.Utility.AssemblyInfoInputs.cache
+D:\university\tuber\last fight\2\course-main\WebApp.Utility\obj\Debug\net7.0\WebApp.Utility.AssemblyInfo.cs
+D:\university\tuber\last fight\2\course-main\WebApp.Utility\obj\Debug\net7.0\WebApp.Utility.csproj.CoreCompileInputs.cache
+D:\university\tuber\last fight\2\course-main\WebApp.Utility\obj\Debug\net7.0\WebApp.Utility.dll
+D:\university\tuber\last fight\2\course-main\WebApp.Utility\obj\Debug\net7.0\refint\WebApp.Utility.dll
+D:\university\tuber\last fight\2\course-main\WebApp.Utility\obj\Debug\net7.0\WebApp.Utility.pdb
+D:\university\tuber\last fight\2\course-main\WebApp.Utility\obj\Debug\net7.0\ref\WebApp.Utility.dll
