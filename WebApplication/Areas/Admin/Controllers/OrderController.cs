@@ -45,8 +45,10 @@ namespace WebApplication.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Details_PAY_NOW()
         {
-            OrderVM.OrderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == OrderVM.OrderHeader.Id, includeProperties: "ApplicationUser");
-            OrderVM.OrderDetail = _unitOfWork.OrderDetail.GetAll(u => u.OrderId == OrderVM.OrderHeader.Id, includeProperties: "Product");
+            OrderVM.OrderHeader = _unitOfWork.OrderHeader.GetFirstOrDefault(u => u.Id == OrderVM.OrderHeader.Id,
+                includeProperties: "ApplicationUser");
+            OrderVM.OrderDetail = _unitOfWork.OrderDetail.GetAll(u => u.OrderId == OrderVM.OrderHeader.Id,
+                includeProperties: "Product");
 
             //stripe settings 
             var domain = "https://localhost:44300/";
@@ -77,7 +79,9 @@ namespace WebApplication.Areas.Admin.Controllers
                         },
 
                     },
-                    Quantity = item.Count,
+					
+
+					Quantity = item.Count,
                 };
                 options.LineItems.Add(sessionLineItem);
 

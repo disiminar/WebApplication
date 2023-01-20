@@ -23,7 +23,9 @@ namespace WebApp.Models
         [ForeignKey("ProductId")]
         [ValidateNever]
         public Product Product { get; set; }
-        public int Count { get; set; }
+        [Required]
+        [Range(1, 10000, ErrorMessage = "The count must be between 1 and 1000 only.")]
+		public int Count { get; set; }
         public double Price { get; set; }
     }
 }
